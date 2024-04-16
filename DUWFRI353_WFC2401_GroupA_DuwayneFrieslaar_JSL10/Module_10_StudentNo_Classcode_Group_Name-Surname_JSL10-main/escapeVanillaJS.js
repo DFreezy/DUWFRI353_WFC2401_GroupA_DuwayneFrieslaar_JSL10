@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 🪲 Bug: Incorrect ID used for attaching the event listener
     document.getElementById("solveRoom1").addEventListener("click", () => {
-        fetch('books.json') 
+        fetch('DUWFRI353_WFC2401_GroupA_DuwayneFrieslaar_JSL10\Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10-main\books.json') 
             .then(response => response.json())
             .then(books => {
                 const mostRecentBook = findMostRecentBook(books);
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 🪲 Bug: Asynchronous function ?
     document.getElementById("solveRoom3").addEventListener("click", () => {
-        fetch('directions.json') 
+        fetch('DUWFRI353_WFC2401_GroupA_DuwayneFrieslaar_JSL10\Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10-main\directions.json') 
             .then(response => response.json())
             .then(directions => {
                 navigateLabyrinth(directions)
