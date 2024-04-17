@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     document.getElementById("solveRoom2").addEventListener("click", () => {
-        const jsConcepts = new Set(['closure', 'scope', 'hoisting']);
+        const jsConcepts = new Set(['closure', 'scope', 'hoisting','async']);
         const reactConcepts = new Set(['components', 'jsx', 'hooks', 'async']);
         // 🪲 Bug: Pass both jsConcepts and reactConcepts as arguments to findIntersection
         const commonConcepts = findIntersection(jsConcepts, reactConcepts);
